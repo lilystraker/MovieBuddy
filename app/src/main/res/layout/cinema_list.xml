@@ -1,0 +1,38 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:textSize="30px"
+            android:textColor="#DEFFFFFF">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp" />
+
+    </TableRow>
+    <TableRow>
+        <ListView
+            android:id="@+id/movierec"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawSelectorOnTop="false"
+            android:fontFamily="@+string/heading3"
+            android:textColor="#009688"
+            android:textSize="20px"
+            ></ListView>
+
+    </TableRow>
+
+</TableLayout>

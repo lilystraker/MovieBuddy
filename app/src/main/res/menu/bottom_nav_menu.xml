@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Film icons downloaded from following links:
+    https://www.flaticon.com/free-icon/clapperboard_6489420?term=add+movie&page=1&position=2&origin=search&related_id=6489420
+    https://www.flaticon.com/free-icon/film-strip_6489380?related_id=6489380&origin=pack
+    https://www.flaticon.com/free-icon/pop-corn_1665346?term=popcorn&page=1&position=4&origin=search&related_id=1665346 -->
+    <item
+        android:id="@+id/navigation_addmovie"
+        android:icon="@drawable/clapperboard"
+        android:title="Add Movie"/>
+
+    <item
+        android:id="@+id/navigation_viewmovies"
+        android:icon="@drawable/filmstrip"
+        android:title="View Movies" />
+
+    <item
+        android:id="@+id/navigation_addcinema"
+        android:icon="@drawable/popcornplus"
+        android:title="Add Cinema" />
+
+    <item
+        android:id="@+id/navigation_viewcinema"
+        android:icon="@drawable/popcorn"
+        android:title="View Cinemas" />
+</menu>

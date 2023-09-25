@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.editmovie.EditMovie"
+    android:background="#424242">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft = "25dp"
+        android:layout_marginRight = "25dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@+string/heading2"
+            android:text="Update Movie"
+            android:textColor="#009688"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/response" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop = "25dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_weight="2"
+                android:fontFamily="@+string/heading3"
+                android:gravity="right"
+                android:text="ID"
+                android:textColor="#009688"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/idTxt"
+                android:layout_weight="2"
+                android:ems="10"
+                android:hint="M001"
+                android:inputType="textPersonName"
+                android:textColor="#DEFFFFFF" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@+string/heading3"
+                android:text="Title"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:layout_marginRight = "50dp"/>
+            <EditText
+                android:id="@+id/titleTxt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#DEFFFFFF"
+                android:layout_weight="2" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@+string/heading3"
+                android:text="Directors"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:layout_marginRight = "50dp"/>
+            <EditText
+                android:id="@+id/directorTxt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#DEFFFFFF"
+                android:layout_weight="2"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@+string/heading3"
+                android:text="Cast"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:layout_marginRight = "50dp"/>
+            <EditText
+                android:id="@+id/castTxt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#DEFFFFFF"
+                android:layout_weight="2" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@+string/heading3"
+                android:text="Release Date"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:layout_marginRight = "50dp" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_weight="2"
+                android:ems="10"
+                android:hint="YYYY-MM-DD"
+                android:inputType="date"
+                android:textColor="#DEFFFFFF" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/posterLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@+string/heading3"
+                android:text="Poster"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:layout_marginRight = "50dp" />
+            <EditText
+                android:id="@+id/posterTxt"
+                android:ems="10"
+                android:textColor="#DEFFFFFF"
+                android:layout_weight="2" />
+        </TableRow>
+        <TableRow>
+            <TextView />
+            <Button
+                android:id="@+id/imageBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Browse" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/cancelMovieBtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel" />
+
+
+            <Button
+                android:id="@+id/clearMovieBtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clear" />
+
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieBuddy</string>
+    <string name="title_insert">Insert Record</string>
+    <string name="title_view">View Records</string>
+    <string name="heading2">sans-serif-condensed-medium</string>
+    <string name="heading3">sans-serif-medium</string>
+</resources>
