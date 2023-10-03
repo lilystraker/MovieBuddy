@@ -9,7 +9,7 @@
   <h1 align="center">Movie Buddy</h1>
 
   <p align="center">
-    <a href="#">View Demonstration Video</a>
+<!--     <a href="#">View Demonstration Video</a> -->
   </p>
 </div>
 
