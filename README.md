@@ -46,10 +46,10 @@
 Movie Buddy is a mobile application made for Android. It offers a simple interface for the user to store a collection of movies and cinemas within a SQLite database. 
 
 <div id = "images">
-  <img src = "https://github.com/lilystraker/MovieBuddy/blob/3e5afd3c487776110bf4d0b1d58128dbc1a7e8cb/app/src/main/res/drawable/addmovie.png" alt = "Screen for adding new movie to database">
-  <img src = "https://github.com/lilystraker/MovieBuddy/blob/3e5afd3c487776110bf4d0b1d58128dbc1a7e8cb/app/src/main/res/drawable/viewmovie.png" alt = "Screen for viewing all movies in database">
-  <img src = "https://github.com/lilystraker/MovieBuddy/blob/3e5afd3c487776110bf4d0b1d58128dbc1a7e8cb/app/src/main/res/drawable/addcinema.png" alt = "Screen for adding new cinema to database">
-  <img src = "https://github.com/lilystraker/MovieBuddy/blob/41c1ba05d26fe1faa56b243aa1b910e982071cdd/app/src/main/res/drawable/viewcinema.png" alt = "Screen for viewing all cinemas in database">
+  <img src = "https://github.com/lilystraker/MovieBuddy/blob/3e5afd3c487776110bf4d0b1d58128dbc1a7e8cb/app/src/main/res/drawable/addmovie.png" alt = "Screen for adding new movie to database" width = "400px">
+  <img src = "https://github.com/lilystraker/MovieBuddy/blob/3e5afd3c487776110bf4d0b1d58128dbc1a7e8cb/app/src/main/res/drawable/viewmovie.png" alt = "Screen for viewing all movies in database" width = "400px">
+  <img src = "https://github.com/lilystraker/MovieBuddy/blob/3e5afd3c487776110bf4d0b1d58128dbc1a7e8cb/app/src/main/res/drawable/addcinema.png" alt = "Screen for adding new cinema to database" width = "400px">
+  <img src = "https://github.com/lilystraker/MovieBuddy/blob/41c1ba05d26fe1faa56b243aa1b910e982071cdd/app/src/main/res/drawable/viewcinema.png" alt = "Screen for viewing all cinemas in database" width = "400px">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
